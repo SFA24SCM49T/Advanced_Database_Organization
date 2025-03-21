@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/sumanthnukala/Documents/sathvika/sem2/ado/Assignments repo/CS525-F24-G26/Assignment2'
+gcc -I. -Wall -Wextra -g -c dberror.c
+gcc -I. -Wall -Wextra -g -c buffer_mgr.c
+gcc -I. -Wall -Wextra -g -c buffer_mgr_stat.c
+gcc -I. -Wall -Wextra -g -c storage_mgr.c
+gcc -I. -Wall -Wextra -g -c test_assign2_1.c
+gcc -I. -Wall -Wextra -g -o test_assign2_1 test_assign2_1.o dberror.o buffer_mgr.o buffer_mgr_stat.o storage_mgr.o
+gcc -I. -Wall -Wextra -g -c test_assign2_2.c
+gcc -I. -Wall -Wextra -g -o test_assign2_2 test_assign2_2.o dberror.o buffer_mgr.o buffer_mgr_stat.o storage_mgr.o
+make: Leaving directory `/Users/sumanthnukala/Documents/sathvika/sem2/ado/Assignments repo/CS525-F24-G26/Assignment2'
+ 
