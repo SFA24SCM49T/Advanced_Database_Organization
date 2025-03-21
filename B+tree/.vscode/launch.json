@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/chait/OneDrive/Desktop/Masters/3. Fall 24/ADO/Assignments/A4/CS525-F24-G26/Assignment4",
+      "program": "c:/Users/chait/OneDrive/Desktop/Masters/3. Fall 24/ADO/Assignments/A4/CS525-F24-G26/Assignment4/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

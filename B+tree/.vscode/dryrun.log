@@ -1,0 +1,14 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/sumanthnukala/Documents/sathvika/sem2/ado/Assignments repo/CS525-F24-G26/Assignment4'
+gcc -w  -c test_assign4_1.c -lm
+gcc -w  -c btree_mgr.c
+gcc -w  -c dberror.c
+gcc -w  -c expr.c
+gcc -w  -c  record_mgr.c
+gcc -w  -c rm_serializer.c
+gcc -w  -c storage_mgr.c -lm
+gcc -w  -c buffer_mgr.c
+gcc -w  -c buffer_mgr_stat.c
+gcc -w  -o test1 test_assign4_1.o btree_mgr.o dberror.o expr.o record_mgr.o rm_serializer.o storage_mgr.o buffer_mgr.o buffer_mgr_stat.o 
+make: Leaving directory `/Users/sumanthnukala/Documents/sathvika/sem2/ado/Assignments repo/CS525-F24-G26/Assignment4'
+ 
