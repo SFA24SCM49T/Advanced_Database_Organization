@@ -1,0 +1,8 @@
+make: Entering directory `/Users/sumanthnukala/Documents/sathvika/sem2/ado/Assignments repo/CS525-F24-G26/Assignment1'
+gcc -g -Wall  -c test_assign1_1.c
+ 
+gcc -g -Wall  -c storage_mgr.c
+gcc -g -Wall  -c dberror.c
+gcc -g -Wall  -o test1 test_assign1_1.o storage_mgr.o dberror.o -lm
+make: Leaving directory `/Users/sumanthnukala/Documents/sathvika/sem2/ado/Assignments repo/CS525-F24-G26/Assignment1'
+ 
